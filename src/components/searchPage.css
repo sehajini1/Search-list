@@ -1,0 +1,57 @@
+.search-header{
+    background-color: #D4F2FF;
+}
+.footer{
+    background-color: #D4F2FF;
+    margin-bottom: -400px;
+}
+.footer-container{
+    height: 80px;
+    margin-bottom: -400px;
+}
+.container{
+    height: 150px;
+}
+.searchbar{
+    margin-top: 50px;
+    margin-left: 220px;
+    padding: 0.8rem 1rem;
+    width: 60%;
+    
+    border-radius: 30px;
+}
+.search-icon{
+    margin-top: 0px;
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
+.search-person-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    
+}
+.search-items{
+    padding-top:5px ;
+}
+.search-person-text{
+    align-items: stretch;
+    margin-left: 25px;
+}
+.search-elements{
+    display: flex;
+    margin-left: 220px;
+}
+.search-person-text-email{
+    font-size: 12px;
+}
+.search-card{
+    border: 2px;
+    border-color: aqua;
+    border-bottom: #D4F2FF;
+}
+.div-searchicon{
+    margin-top: -54px;
+    margin-left: 980px;
+}
