@@ -6,7 +6,7 @@ import {Users} from "./users";
 import Card from 'react-bootstrap/Card';
 
 const SearchPage = () =>{
-    const [query,setQuery] = useState("");   
+    const [search,setSearch] = useState("");   
     return(
         <div>
             <div className="search-header">
@@ -16,7 +16,7 @@ const SearchPage = () =>{
                             type="text" 
                             placeholder="Search name or email" 
                             className="searchbar"
-                            onChange={(e) => setQuery(e.target.value)}/>                  
+                            onChange={(e) => setSearch(e.target.value)}/>                  
                     </div>                       
                     <div className="div-searchicon">
                         <SearchIcon className="search-icon"/> 
@@ -25,7 +25,7 @@ const SearchPage = () =>{
             </div>
             <div className="search-items">
                 {Users.filter((user) =>
-                    user.name.toLocaleLowerCase().includes(query) || user.email.toLocaleLowerCase().includes(query)
+                    user.name.toLocaleLowerCase().includes(search) || user.email.toLocaleLowerCase().includes(search)
                     ).map((user) =>{
                          return(
                             <React.Fragment key={user.id}>                           
